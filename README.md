@@ -1,5 +1,3 @@
-# LabelSwitching
-Label Switching
 #Imbalance datasets 
 High imbalance occurs in many real-world application areas where the decision system is aimed to detect rare but important cases. Simply by listing some of them, data imbalance is found in the Information Technology area, in biomedical data, industrial applications, or in the financial area.
 
@@ -21,3 +19,7 @@ The imbalance implies a difficulty for learning algorithms, since they will be b
 is a multi-learner paradigm in which several models, or base learners,
 are trained using diverse examples, and their complementary (or
 uncorrelated) predictions are fused to yield a final decision.
+
+Class-label switching improves the classification accuracy of neural network ensembles outperforming bagging and boosting in some common imbalanced scenarios. 
+
+An obvious question that may arise is whether the diversity on majority and minority class should be equal or different. Our answer is to use asymmetric label-switching [[gutierrez2020asymmetric](https://doi.org/10.1016/j.inffus.2020.02.004)].
